@@ -1,0 +1,143 @@
+#encabezado {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    background-color: crimson;
+    color: white
+}
+
+#encabezado h1 {
+    display: inline
+}
+
+#menu {
+    position: absolute;
+    top: 8%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: black;
+    color: white
+}
+
+#menu a {
+    background-color: red;
+    color: black
+}
+
+#menu a:hover {
+    background-color: whitesmoke;
+    color: white
+}
+
+#barralateral {
+    position: absolute;
+    top: 8%;
+    left: 0;
+    padding: 10px;  
+    height: 88%;
+    width: 20%;
+    background-color: #751C1C;
+    color: white;
+}
+
+#contenido {
+    position: absolute;
+    top: 8%;
+    left: 20%;
+    padding: 10px;  
+    height: 88%;
+    width: 80%;
+    background-color: #D17171;
+    color: whitesmoke;
+    overflow: auto;
+}
+
+#piepagina {
+    position: absolute;
+    bottom: 0;
+    left: 0;  
+    height: 4%;
+    width: 100%;
+    background-color: #402424;
+    text-align: center;
+    color: white;
+}
+
+#encabezadoTabla {
+    background-color: coral;
+    text-align: center;
+    color: blue;
+}
+
+#tablaDetalle tr:nth-child(even) {
+    background-color: crimson;
+    color: white    
+}
+
+#tablaDetalle tr:nth-child(odd) {
+    background-color: greenyellow;
+    color: black    
+}
+
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: inherit;
+    padding: 90px 20px 0;
+}
+
+.header {
+    background-color: #D13434;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 10px;
+    line-height: 80px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 60px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.nav-menu-link:hover {
+    background-color: #700202;
+    transition: 0.5s;
+}
