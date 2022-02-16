@@ -67,19 +67,19 @@
 }
 
 #encabezadoTabla {
-    background-color: coral;
+    background-color: #751C1C;
     text-align: center;
-    color: blue;
+    color: white;
 }
 
 #tablaDetalle tr:nth-child(even) {
-    background-color: crimson;
+    background-color: #B05757;
     color: white    
 }
 
 #tablaDetalle tr:nth-child(odd) {
-    background-color: greenyellow;
-    color: black    
+    background-color: #C55757;
+    color: white  
 }
 
 * {
@@ -88,7 +88,7 @@
 }
 
 body {
-    font-family: inherit;
+    font-family: sans-serif;
     padding: 90px 20px 0;
 }
 
